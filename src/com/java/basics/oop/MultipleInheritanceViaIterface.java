@@ -10,13 +10,21 @@ interface Showable{
 
 class Document implements Printable, Showable {
 
-    public void print() {
-        System.out.println("Printing document...");
-    }
-    @Override
-    public void show() {
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
         System.out.println("Showing document...");
-    }
+
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+        System.out.println("Printing document...");
+
+	}
+
+
 }
 public class MultipleInheritanceViaIterface {
 
